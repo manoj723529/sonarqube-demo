@@ -12,6 +12,11 @@ def divide(a, b):
 def is_even(n):
     return n % 2 == 0
 
+def multiply(a, b):
+    result = a * b
+    unused_variable = 100
+    return result
+
 if __name__ == "__main__":
     print(add(5, 3))
     print(subtract(10, 4))

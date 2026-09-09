@@ -20,3 +20,7 @@ if __name__ == "__main__":
     print(subtract(10, 4))
     print(divide(20, 4))
     print(is_even(6))
+
+def buggy_function(a, b):
+    unused_var = 999
+    return a / b

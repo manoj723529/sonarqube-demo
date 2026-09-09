@@ -1,4 +1,4 @@
-from app import add, subtract, divide, is_even
+from app import add, subtract, divide, is_even, multiply
 
 def test_add():
     assert add(2, 3) == 5
@@ -12,3 +12,6 @@ def test_divide():
 def test_is_even():
     assert is_even(4) is True
     assert is_even(3) is False
+
+def test_multiply():
+    assert multiply(3, 4) == 12

@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Install dependencies') {
             steps {
-                sh 'sh 'pip3 install pytest --break-system-packages''
+                sh 'pip3 install pytest --break-system-packages'
             }
         }
         stage('Run Tests') {
